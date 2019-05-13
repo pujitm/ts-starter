@@ -6,9 +6,9 @@
   "scripts": {
     "clean": "rm -r ./bin",
     "compile": "NODE_ENV=development tsc --lib es6",
-    "compile:windows": "SET NODE_ENV=development&& tsc --lib es6",
+    "compile:win": "SET NODE_ENV=development&& tsc --lib es6",
     "start": "npm run compile && node ./bin/index",
-    "start:windows": "npm run compile:windows && node ./bin/index",
+    "start:win": "npm run compile:win && node ./bin/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
