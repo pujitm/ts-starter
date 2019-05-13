@@ -1,0 +1,27 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -r ./bin",
+    "compile": "NODE_ENV=development tsc --lib es6",
+    "compile:windows": "SET NODE_ENV=development&& tsc --lib es6",
+    "start": "npm run compile && node ./bin/index",
+    "start:windows": "npm run compile:windows && node ./bin/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "module-alias": "^2.2.0"
+  },
+  "_moduleAliases": {
+    "components": "./bin/components",
+    "tests": "./bin/tests"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.6"
+  }
+}
