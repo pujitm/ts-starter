@@ -1,5 +1,7 @@
 # ts-starter
 
+[![CircleCI](https://circleci.com/gh/pujitm/ts-starter/tree/master.svg?style=svg)](https://circleci.com/gh/pujitm/ts-starter/tree/master)
+
 Since this file will be changed, please see `docs/template` for documentation.
 
 ## Prerequisites
