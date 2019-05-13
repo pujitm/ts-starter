@@ -1,0 +1,30 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -r ./bin",
+    "compile": "NODE_ENV=development tsc --lib es6",
+    "compile:win": "SET NODE_ENV=development&& tsc --lib es6",
+    "start": "npm run compile && node ./bin/index",
+    "start:win": "npm run compile:win && node ./bin/index",
+    "test": "npm run compile && jest",
+    "test:win": "npm run compile:win && jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "module-alias": "^2.2.0"
+  },
+  "_moduleAliases": {
+    "components": "./bin/components",
+    "tests": "./bin/tests"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "@types/node": "^11.13.6",
+    "jest": "^24.8.0"
+  }
+}

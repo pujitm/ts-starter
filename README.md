@@ -2,6 +2,12 @@
 
 Since this file will be changed, please see `docs/template` for documentation.
 
+## Prerequisites
+
+This repository assumes a global installation of TypeScript (`npm i -g typescript).
+
+To use a repo-local instance of typescript, run `npm i typescript`. You should be good-to-go from there.
+
 ## Basic Information
 
 All source files in `src` are compiled to `<project root>/bin`
