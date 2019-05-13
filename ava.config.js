@@ -5,6 +5,7 @@ export default {
     files: [
         "bin/**/*.test.js",
         "bin/**/*.t.js",
+        "docs"
     ],
     sources: [
         "**/*.{ts,tsx}",
