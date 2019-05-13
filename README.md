@@ -15,3 +15,9 @@ Paths for absolute imports in Typescript are defined in `tsconfig.json`.
 - `npm install`
 
 - Run platform specific start script (`npm start` or `npm start:win`)
+
+### Testing
+
+This repo uses [AVA](https://github.com/avajs/ava) for testing. 
+
+Future guides to setting up other testing configurations will be in `docs/template`

@@ -9,7 +9,8 @@
     "compile:win": "SET NODE_ENV=development&& tsc --lib es6",
     "start": "npm run compile && node ./bin/index",
     "start:win": "npm run compile:win && node ./bin/index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run compile && ava",
+    "test:win": "npm run compile:win && ava"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,7 @@
     "tests": "./bin/tests"
   },
   "devDependencies": {
-    "@types/node": "^11.13.6"
+    "@types/node": "^11.13.6",
+    "ava": "^1.4.1"
   }
 }
