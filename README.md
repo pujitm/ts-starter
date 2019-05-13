@@ -4,9 +4,7 @@ Since this file will be changed, please see `docs/template` for documentation.
 
 ## Prerequisites
 
-This repository assumes a global installation of TypeScript (`npm i -g typescript).
-
-To use a repo-local instance of typescript, run `npm i typescript`. You should be good-to-go from there.
+Use an LTS-version of Node.js or later. This was developed in `node=v11.6.0` and `npm=6.5.0`
 
 ## Basic Information
 
