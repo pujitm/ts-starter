@@ -24,6 +24,6 @@ Paths for absolute imports in Typescript are defined in `tsconfig.json`.
 
 ### Testing
 
-This repo uses [AVA](https://github.com/avajs/ava) for testing. 
+This repo uses [AVA](https://github.com/avajs/ava) for testing and [c8](https://github.com/bcoe/c8#readme) for coverage (feel free to change to `nyc`). 
 
 Documentation for other testing frameworks is under `docs/template/testing`
