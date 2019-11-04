@@ -12,9 +12,10 @@ Use an LTS-version of Node.js or later. This was developed in `node=v11.6.0` and
 
 All source files in `src` are compiled to `<project root>/bin`
 
-Module resolution (post-compile) via `module-alias`
+Each directory under `src` should be mapped under the `"_moduleAliases"` key
+in `package.json`. This enables absolute imports.
 
-Paths for absolute imports in the compiled javascript are defined in `package.json`
+Module resolution (post-compile) via `module-alias`
 
 Paths for absolute imports in Typescript are defined in `tsconfig.json`.
 
